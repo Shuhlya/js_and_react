@@ -52,7 +52,7 @@ let personalMovieDB = {
 			!gen? --i : this.genres.push(gen);
 		}
 		this.genres.forEach((element, i) => {
-			console.log(`Любимый жанр ${i} - это ${element}`);
+			console.log(`Любимый жанр ${i+1} - это ${element}`);
 		});
 	},
 	toggleVisibleMyDB: function (){
